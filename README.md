@@ -12,3 +12,8 @@ Execute:
 ./ProgName.exe  # or
 mono ProgName.exe
 ```
+
+Compiling GUI apps:
+```
+mcs -pkg:dotnet ProgName.cs
+```
